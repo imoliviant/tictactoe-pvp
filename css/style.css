@@ -3,7 +3,7 @@ body {
    }
    .board {
     margin: auto;
-    width: 100%;
+    width: 350px;
    }
    .board button {
     height: 100px;
