@@ -3,11 +3,11 @@ body {
    }
    .board {
     margin: auto;
-    width: 350px;
+    width: 700px;
    }
    .board button {
-    height: 65%;
-    width: 60%;
+    height: 100px;
+    width: 100px;
     margin: 0px;
     padding: 0px;
     float: left;
