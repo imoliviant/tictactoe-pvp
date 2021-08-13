@@ -1,31 +1,23 @@
-html {
-    align: middle;
-    }
 body {
     text-align: center;
-    background: #56baed;
-
+    color: blue;
    }
    .board {
     margin: auto;
     width: 350px;
-
-    height: 350px;
-    align: center;
    }
    .board button {
     height: 100px;
     width: 100px;
     margin: 0px;
     padding: 0px;
-    float: center;
+    float: left;
     margin-right: 10px;
     margin-bottom: 10px;
-    font-size: 3em;
+    font-size: 3em
    }
-  #messages {
-   font-size: 20px;
-   font-family: monospace;
-   float: center;
-   color: purple;
+   #messages {
+    font-family: monospace;
+    color: purple;
+    font-size: 20px;
    }
