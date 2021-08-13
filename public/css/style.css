@@ -14,12 +14,12 @@ body {
     align: center;
    }
    .board button {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     margin: 0px;
     padding: 0px;
     float: left;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    font-size: 3em
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 6em
    }
