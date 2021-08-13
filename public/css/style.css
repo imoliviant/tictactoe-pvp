@@ -24,5 +24,7 @@ body {
     font-size: 56em;
    }
   #messages {
-   font-size: 65px;
+   font-size: 70px;
+   font-family: monospace;
+   float: center;
    }
