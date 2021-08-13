@@ -8,20 +8,20 @@ body {
    }
    .board {
     margin: auto;
-    width: 1050px;
+    width: 350px;
 
-    height: 1050px;
+    height: 350px;
     align: center;
    }
    .board button {
-    height: 300px;
-    width: 300px;
+    height: 100px;
+    width: 100px;
     margin: 0px;
     padding: 0px;
     float: center;
     margin-right: 10px;
     margin-bottom: 10px;
-    font-size: 9em;
+    font-size: 3em;
    }
   #messages {
    font-size: 70px;
