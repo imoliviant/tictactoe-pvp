@@ -1,9 +1,10 @@
 html {
-    height: 75%;
+    height: 50%;
     }
 body {
     text-align: center;
     background: #56baed;
+    height: 30%;
    }
    .board {
     margin: auto;
