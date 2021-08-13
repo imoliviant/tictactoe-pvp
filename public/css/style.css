@@ -9,7 +9,9 @@ body {
    .board {
     margin: auto;
     width: 350px;
-    float: center;
+    display: block;
+    height: 350px;
+       
    }
    .board button {
     height: 100px;
