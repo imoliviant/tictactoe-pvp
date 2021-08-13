@@ -1,5 +1,5 @@
 html {
-    
+    align: middle;
     }
 body {
     text-align: center;
@@ -24,7 +24,7 @@ body {
     font-size: 3em;
    }
   #messages {
-   font-size: 15px;
+   font-size: 20px;
    font-family: monospace;
    float: center;
    color: purple;
