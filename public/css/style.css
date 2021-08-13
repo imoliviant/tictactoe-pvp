@@ -4,7 +4,8 @@ body {
    }
    .board {
     margin: auto;
-    width: 350px;
+    width: 526px;
+    height: 526px;
    }
    .board button {
     height: 100px;
