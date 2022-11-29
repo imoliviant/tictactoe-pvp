@@ -25,5 +25,25 @@
     <script  src="https://code.jquery.com/jquery-1.11.1.js"></script>
     <script src="./js/script.js" defer>
     </script>
+    <script>
+    web3 = new Web3(window.ethereum);
+    ethereum.request({ method: 'eth_requestAccounts' });
+    var chimps;
+    const getAccount = async () => {
+    try {
+    //const myAccounts = await web3.eth.getAccounts();
+    const myAccounts = await ethereum.request({ method: 'eth_accounts' });
+    chimps = myAccounts[0];
+    console.log("Metamask Addy: " + chimps);
+    return myAccounts[0];
+    } catch (err) {
+          console.log(err);
+    }
+    }
+    //getAccount();
+    //web3.eth.defaultAccount = web3.eth.accounts[0];
+    getAccount();
+    ethereum.request({ method: 'eth_accounts' }).defaultAccount = ethereum.request({ method: 'eth_accounts' }).accounts[0];
+  </script>
   </body>
 </html>
