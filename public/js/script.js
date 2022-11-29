@@ -28,6 +28,7 @@ $(function () {
         // Show the message for the winner
       } else {
         $("#messages").text("Game over. You won!");
+        $("#messages").text("if you held CHIMPS you can claim rewards");
       }
       // Disable the board
       $(".board button").attr("disabled", true);
